@@ -1,0 +1,163 @@
+
+
+.menu {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style-type: none;
+    border: solid white 0.1em;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 4px;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+}
+body {
+    background-color: black;
+    color: white;
+
+}
+
+
+.one {
+    display: flex;
+    /*flex-wrap: wrap;*/
+
+    flex-direction: row;
+    gap: 1em;
+}
+
+
+.aan {
+
+    /*flex: 1;*/
+    display: flex;
+    flex-direction: column;
+    border: solid 4px deeppink;
+    border-radius: 1em;
+
+}
+
+.aan img{
+    width: 100%;
+}
+
+.aan a {
+    color: white;
+    background-color: lightpink;
+    font-size: 1.5em;
+    border: solid lightpink 2px;
+    border-radius: 2px;
+    list-style-type: none;
+    /*margin: 4em;*/
+
+}
+
+.player-img {
+    align-self: center;
+    border-radius: 10em;
+}
+
+.two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4em;
+    padding-top:6em;
+}
+
+.fee {
+    border-radius: 1em;
+    border: solid deeppink 2px;
+    background-color: lightpink;
+    right: 30em;
+    top: 26em;
+    position: absolute;
+    z-index: 1;
+    padding: 2em;
+}
+
+.stock {
+    position: relative;
+    left: 10em;
+    top: 2em;
+    border-radius: 4em;
+}
+p{
+    margin: 0.2em;
+}
+
+.player-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4em;
+}
+
+.player-body{
+    padding: 2em;
+}
+
+.event-img{
+    border: solid 4px deeppink;
+    border-radius: 10px;
+    padding: 2em;
+}
+.event-img p{
+    align-items: center;
+}
+.event-Row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+.event-h1-text{
+    display: block;
+
+    border-radius: 1em;
+    border: solid deeppink 2px;
+    background-color: lightpink;
+    right: 40em;
+    top: 6em;
+    position: absolute;
+    z-index: 1;
+    padding: 2em;
+}
+
+.title {
+  display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    font-size: 1em;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+  .one{
+      width: 80%;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      flex: 1;
+  }
+    .menu{
+        width: 80%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    .player-body{
+        width: 80%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+}
